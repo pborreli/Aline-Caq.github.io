@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+  <!--la balise "node_modules"va aller chercher le bootstrap telechargé dans mon dossier -->
+  <!-- la balise "https" va aller chercher la librairie directement sur internet-->
+  <title>CV Test bootstrap</title>
+</head>
+<body>
+  <div class="container">  <!--<container> apres <body> et </container> avant </body>--> <!--<container> avec marge <container-fluid>sans marge-->
+    <div class="row">
+      <div class="col-2"><button type="button" class="btn btn-light"><strong>QUI SUIS-JE ?</strong></button></div>
+      <div class="col-2"><button type="button" class="btn btn-light"><strong>COMPETENCES</strong></button></div>
+      <div class="col-2"><button type="button" class="btn btn-light"><strong>FORMATIONS</strong></button></div>
+      <div class="col-2"><button type="button" class="btn btn-light"><strong>EXPERIENCES</strong></button></div>
+      <div class="col-2"><button type="button" class="btn btn-light"><strong>LOISIRS</strong></button></div>
+      <div class="col-2"><button type="button" class="btn btn-light"><strong>ME CONTACTER</button></div>
+      </div>
+      <div class="row">
+        <div class="col-12" id="titre">
+          <p><strong>CAQUINEAU Aline</strong></p>
+          <p><strong>Developpeuse Web Junior</strong></p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="node_modules/bootstrap/js/dist/bootstrap.min.js"></script>
+  <script src="node_modules/popper.js/dist/popper.js"></script>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  </html>
