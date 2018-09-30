@@ -1,11 +1,12 @@
 body{
-background-image: url(assets/img/back3.jpeg);
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
-  }
+  background-image: url(assets/img/back3.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 .navbar{
   font-family: 'purisa';
+  background-attachment: fixed;
 }
 button {
   margin-right: 10px;
@@ -24,12 +25,146 @@ button {
 #presentation{
   text-align: center;
   color: black;
-  background-color: rgba(255, 255, 255, 0.7);
-  margin-top: 9%;
+  background-color: rgba(193, 193, 193, 0.7);
+  margin-top: 12%;
   font-size: 150%;
   overflow:hidden;
   -webkit-border-radius:50px;
   -moz-border-radius:50px;
   border-radius:50px;
   font-family: 'dyuthi'
+}
+#paragraphe-un{
+  text-align: center;
+  color: black;
+  background-color: rgba(193, 193, 193, 0.7);
+  margin-top: 10%;
+  font-size: 180%;
+  overflow:hidden;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+  font-family: 'dyuthi'
+}
+#couleur{
+  font-family: 'purisa';
+  color : black;
+  font-size: 60%;
+  font-weight: bold;
+}
+#couleur2{
+  font-family: 'purisa';
+  color : black;
+  font-size: 60%;
+  font-weight: bold;
+}
+#couleur3{
+  font-family: 'purisa';
+  color : black;
+  font-size: 60%;
+  font-weight: bold;
+}
+#couleur4{
+  font-family: 'purisa';
+  color : black;
+  font-size: 60%;
+  font-weight: bold;
+}
+#couleur5{
+  font-family: 'purisa';
+  color : black;
+  font-size: 60%;
+  font-weight: bold;
+}
+.progress-bar{
+  background-color: #999898;
+}
+.fleche{
+  float: right;
+  background-color: white;
+  margin-top: 5%;
+}
+#paragraphe-deux{
+  text-align: center;
+  color: black;
+  background-color: rgba(193, 193, 193, 0.7);
+  margin-top: 20%;
+  font-size: 180%;
+  overflow:hidden;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+  font-family: 'dyuthi'
+}
+#manu{
+  width: 10%;
+}
+#toeic{
+  width: 8%;
+}
+#ufcv{
+  width: 8%;
+}
+#bac{
+  width: 10%;
+  height: 60px;
+}
+li{
+  font-family: 'purisa';
+}
+#paragraphe-trois{
+  text-align: center;
+  color: black;
+  background-color: rgba(193, 193, 193, 0.7);
+  margin-top: 50%;
+  font-size: 150%;
+  overflow:hidden;
+  -webkit-border-radius:50px;
+  -moz-border-radius:50px;
+  border-radius:50px;
+  font-family: 'dyuthi';
+}
+#paragraphe-quatre{
+text-align: center;
+color: black;
+background-color: rgba(193, 193, 193, 0.7);
+margin-top: 30%;
+font-size: 150%;
+overflow:hidden;
+-webkit-border-radius:50px;
+-moz-border-radius:50px;
+border-radius:50px;
+font-family: 'dyuthi';
+}
+#voyage{
+  width: 20%;
+  height: 40%;
+}
+#sport{
+  width: 20%;
+  height: 50%;
+}
+#escape{
+  width: 10%;
+  height: 40%;
+}
+#cinema{
+  width: 15%;
+  height: 45%;
+}
+#footer{
+text-align: center;
+color: black;
+background-color: rgba(193, 193, 193, 0.7);
+margin-top: 40%;
+font-size: 150%;
+overflow:hidden;
+-webkit-border-radius:50px;
+-moz-border-radius:50px;
+border-radius:50px;
+font-family: 'dyuthi';
+}
+#adress{
+  font-family: 'purisa';
+    
 }
