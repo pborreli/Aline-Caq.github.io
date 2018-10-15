@@ -1,5 +1,5 @@
 body{
-  background-image: url(assets/img/back3.jpeg);
+  background-image: url(assets/img/back6.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -15,7 +15,7 @@ button {
 #titre{
   text-align: center;
   margin-top: 9%;
-  color: white;
+  color: black;
   font-size: 400%;
   text-shadow:0 0 25px #f2078c;
   font-family: 'karumbi';
@@ -25,38 +25,38 @@ button {
 #presentation{
   text-align: center;
   color: black;
-  background-color: rgba(193, 193, 193, 0.7);
-  margin-top: 12%;
-  font-size: 150%;
+  background-color: rgba(193, 193, 193, 0.6);
+  margin-top: 10%;
+  font-size: 130%;
   overflow:hidden;
   -webkit-border-radius:50px;
   -moz-border-radius:50px;
   border-radius:50px;
-  font-family: 'dyuthi'
+  font-family: 'chandas'
 }
 #presentation2{
   text-align: center;
-  color: black;
-  background-color: rgba(193, 193, 193, 0.7);
+  color: red;
+  background-color: rgba(193, 193, 193, 0.0);
   margin-top: 1%;
-  font-size: 150%;
+  font-size: 130%;
   overflow:hidden;
   -webkit-border-radius:50px;
   -moz-border-radius:50px;
   border-radius:50px;
-  font-family: 'dyuthi'
+  font-family: 'chilanca'
 }
 #paragraphe-un{
   text-align: center;
   color: black;
-  background-color: rgba(193, 193, 193, 0.7);
+  background-color: rgba(193, 193, 193, 0.6);
   margin-top: 10%;
   font-size: 180%;
   overflow:hidden;
   -webkit-border-radius:50px;
   -moz-border-radius:50px;
   border-radius:50px;
-  font-family: 'dyuthi'
+  font-family: 'Keraleeyam'
 }
 #couleur{
   font-family: 'purisa';
@@ -99,14 +99,14 @@ button {
 #paragraphe-deux{
   text-align: center;
   color: black;
-  background-color: rgba(193, 193, 193, 0.7);
+  background-color: rgba(193, 193, 193, 0.6);
   margin-top: 20%;
   font-size: 180%;
   overflow:hidden;
   -webkit-border-radius:50px;
   -moz-border-radius:50px;
   border-radius:50px;
-  font-family: 'dyuthi'
+  font-family: 'Keraleeyam'
 }
 #manu{
   width: 10%;
@@ -122,31 +122,31 @@ button {
   height: 60px;
 }
 li{
-  font-family: 'purisa';
+  font-family: 'Keraleeyam';
 }
 #paragraphe-trois{
   text-align: center;
   color: black;
-  background-color: rgba(193, 193, 193, 0.7);
+  background-color: rgba(193, 193, 193, 0.6);
   margin-top: 50%;
   font-size: 150%;
   overflow:hidden;
   -webkit-border-radius:50px;
   -moz-border-radius:50px;
   border-radius:50px;
-  font-family: 'dyuthi';
+  font-family: 'Keraleeyam';
 }
 #paragraphe-quatre{
 text-align: center;
 color: black;
-background-color: rgba(193, 193, 193, 0.7);
+background-color: rgba(193, 193, 193, 0.6);
 margin-top: 30%;
 font-size: 150%;
 overflow:hidden;
 -webkit-border-radius:50px;
 -moz-border-radius:50px;
 border-radius:50px;
-font-family: 'dyuthi';
+font-family: 'Keraleeyam';
 }
 #voyage{
   width: 20%;
@@ -167,14 +167,14 @@ font-family: 'dyuthi';
 #footer{
 text-align: center;
 color: black;
-background-color: rgba(193, 193, 193, 0.7);
+background-color: rgba(193, 193, 193, 0.6);
 margin-top: 40%;
 font-size: 150%;
 overflow:hidden;
 -webkit-border-radius:50px;
 -moz-border-radius:50px;
 border-radius:50px;
-font-family: 'dyuthi';
+font-family: 'Keraleeyam';
 }
 #adress{
   font-family: 'purisa';
