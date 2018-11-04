@@ -1,5 +1,5 @@
 /* Permet de bloquer le scroll vertical */
-  /* html { overflow-y: hidden; } */
+  html { overflow-y: hidden; }
 
 /* Debut CSS de la Structure */
 .navbar {
