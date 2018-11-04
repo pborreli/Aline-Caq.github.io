@@ -1,0 +1,147 @@
+/* Permet de bloquer le scroll vertical */
+  /* html { overflow-y: hidden; } */
+
+/* Debut CSS de la Structure */
+.navbar {
+	background: #78A1BB;
+	z-index: 1;
+	margin-top: 2%;
+}
+#navbarNav{
+	margin-top: 10%;
+}
+/* a:hover{
+	color: pink;
+}
+a{
+	color:white;
+} */
+#liseret{
+	height: 500px;
+	width: 20%;
+	background: #2F2F3A;
+	margin-left: 2%;
+	margin-top: 0.5%;
+}
+.navbar-nav .nav-link {
+	float: right;
+}
+#nameDeux{
+  color: white;
+}
+#myName{
+  margin-top: 25%;
+  font-size: 50%;
+  margin-left: 32%;
+  font-weight: bold;
+  position: fixed;
+  /* z-index: 1; */
+}
+#presentation{
+  padding-top: 35%;
+  text-align: center;
+  font-family: "Manjari Bold";
+}
+#experiences{
+  padding-top: 35%;
+  text-align: center;
+  font-family: "Manjari Bold";
+}
+#formations{
+	padding-top: 32%;
+  text-align: center;
+  font-family: "Manjari Bold";
+}
+#competences{
+	padding-top: 33%;
+  text-align: center;
+  font-family: "Manjari Bold";
+}
+.progress{
+  font-weight: bold;
+  background-color: grey;
+}
+#white{
+  height: 10px;
+  width: auto;
+}
+#projetNum{
+	padding-top: 35%;
+  text-align: center;
+  font-family: "Manjari Bold";
+}
+#contacts{
+  text-align: center;
+  font-family: "Manjari Bold";
+}
+
+/* Fin CSS de la Structure */
+
+/* Debut Media Query */
+
+@media all and (max-width: 700px)
+{
+
+  .navbar {
+  	background: #78A1BB;
+  	z-index: 1;
+  	margin-top: 2%;
+  }
+  #navbarNav{
+  	margin-top: 10%;
+  }
+  #liseret{
+display: none;
+  }
+  .navbar-nav .nav-link {
+  	float: right;
+  }
+  #myName{
+display: none;
+  }
+  #nameDeux{
+    color: red;
+		font-size: 160%;
+  }
+  #presentation{
+		font-size: 100%;
+    text-align: center;
+    font-family: "Manjari Bold";
+  }
+  #experiences{
+		font-size: 120%;
+		margin-top: 20%;
+		text-align:center !important;
+    font-family: "Manjari Bold";
+  }
+  #formations{
+		margin-top: 20%;
+		font-size: 120%;
+    text-align: center;
+    font-family: "Manjari Bold";
+  }
+  #competences{
+		margin-top: 40%;
+		font-size: 150%;
+    text-align: center;
+    font-family: "Manjari Bold";
+  }
+  .progress{
+		font-size: 40%;
+    font-weight: bold;
+    background-color: grey;
+  }
+  }
+  #projetNum{
+		margin-top: 60%;
+    text-align: center;
+    font-family: "Manjari Bold";
+  }
+  #contacts{
+		margin-top: 30%;
+    text-align: center;
+    font-family: "Manjari Bold";
+  }
+}
+
+/* Fin Media Query  */
