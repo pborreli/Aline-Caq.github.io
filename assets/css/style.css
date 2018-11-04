@@ -30,30 +30,35 @@ a{
   color: white;
 }
 #myName{
-  margin-top: 25%;
+  margin-top: 7%;
   font-size: 50%;
   margin-left: 32%;
   font-weight: bold;
   position: fixed;
-  /* z-index: 1; */
+  z-index: 1;
 }
 #presentation{
-  padding-top: 35%;
+	margin-left: 20%;
+  padding-top: 25%;
   text-align: center;
   font-family: "Manjari Bold";
 }
 #experiences{
-  padding-top: 35%;
+	margin-left: 10%;
+  padding-top: 25%;
+	font-size: 90%;
   text-align: center;
   font-family: "Manjari Bold";
 }
 #formations{
-	padding-top: 32%;
+	padding-top: 25%;
+	margin-left: 10%;
   text-align: center;
   font-family: "Manjari Bold";
 }
 #competences{
-	padding-top: 33%;
+	padding-top: 25%;
+	margin-left: 20%;
   text-align: center;
   font-family: "Manjari Bold";
 }
@@ -66,11 +71,13 @@ a{
   width: auto;
 }
 #projetNum{
-	padding-top: 35%;
+	padding-top: 30%;
+	margin-left: 10%;
   text-align: center;
   font-family: "Manjari Bold";
 }
 #contacts{
+	margin-left: 10%;
   text-align: center;
   font-family: "Manjari Bold";
 }
