@@ -37,7 +37,7 @@ $(function(){
     $('#competences').show();
     $('#presentation').hide();
     $('#experiences').hide();
-    $('#competences').hide();
+    $('#formations').hide();
     $('#projetNum').hide();
     $('#contacts').hide();
   });
@@ -47,7 +47,7 @@ $(function(){
     $('#presentation').hide();
     $('#experiences').hide();
     $('#competences').hide();
-    $('#competences').hide();
+    $('#formations').hide();
     $('#contacts').hide();
   });
 

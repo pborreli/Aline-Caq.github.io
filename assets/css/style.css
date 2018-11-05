@@ -1,5 +1,3 @@
-/* Permet de bloquer le scroll vertical */
-  html { overflow-y: hidden; }
 
 /* Debut CSS de la Structure */
 .navbar {
@@ -10,12 +8,6 @@
 #navbarNav{
 	margin-top: 10%;
 }
-/* a:hover{
-	color: pink;
-}
-a{
-	color:white;
-} */
 #liseret{
 	height: 500px;
 	width: 20%;
@@ -39,25 +31,26 @@ a{
 }
 #presentation{
 	margin-left: 20%;
-  padding-top: 30%;
+  padding-top: 25%;
   text-align: center;
   font-family: "Manjari Bold";
 }
 #experiences{
 	margin-left: 10%;
-  padding-top: 30%;
+  padding-top: 25%;
 	font-size: 90%;
   text-align: center;
   font-family: "Manjari Bold";
 }
 #formations{
-	padding-top: 30%;
+	padding-top: 27%;
 	margin-left: 10%;
   text-align: center;
   font-family: "Manjari Bold";
 }
 #competences{
-
+  padding-top: 26%;
+  margin-left: 20%;
   text-align: center;
   font-family: "Manjari Bold";
 }
@@ -70,14 +63,65 @@ a{
   width: auto;
 }
 #projetNum{
+  margin-left: 20%;
   padding-top:30%;
   text-align: center;
   font-family: "Manjari Bold";
 }
 #contacts{
-  padding-top:40%;
+  padding-top:32%;
+  margin-left: 20%;
   text-align: center;
   font-family: "Manjari Bold";
-} */
+}
+ @media screen and (max-width: 800px){
+   #liseret{
+ display: none;
+   }
 
-/
+   #nameDeux{
+     color: #2F2F3A;
+   }
+   #myName{
+     display: none;
+   }
+   #presentation{
+     margin-right: 10%;
+     padding-top: 25%;
+     font-family: "Manjari Bold";
+   }
+   #experiences{
+    padding-top: 25%;
+   	font-size: 90%;
+     text-align: center;
+     font-family: "Manjari Bold";
+   }
+   #formations{
+   	padding-top: 27%;
+     text-align: center;
+     font-family: "Manjari Bold";
+   }
+   #competences{
+     padding-top: 26%;
+     text-align: center;
+     font-family: "Manjari Bold";
+   }
+   .progress{
+     font-weight: bold;
+     background-color: grey;
+   }
+   #white{
+     height: 10px;
+     width: auto;
+   }
+   #projetNum{
+     padding-top:30%;
+     text-align: center;
+     font-family: "Manjari Bold";
+   }
+   #contacts{
+     padding-top:32%;
+     text-align: center;
+     font-family: "Manjari Bold";
+   }
+}
