@@ -1,3 +1,68 @@
+$(function(){
+  $('#experiences').hide();
+  $('#formations').hide();
+  $('#competences').hide();
+  $('#projetNum').hide();
+  $('#contacts').hide();
+
+
+  $('#pres').click(function(){
+    $('#presentation').show();
+    $('#experiences').hide();
+    $('#formations').hide();
+    $('#competences').hide();
+    $('#projetNum').hide();
+    $('#contacts').hide();
+  });
+
+  $('#expe').click(function(){
+    $('#experiences').show();
+    $('#presentation').hide();
+    $('#formations').hide();
+    $('#competences').hide();
+    $('#projetNum').hide();
+    $('#contacts').hide();
+  });
+
+  $('#form').click(function(){
+    $('#formations').show();
+    $('#presentation').hide();
+    $('#experiences').hide();
+    $('#competences').hide();
+    $('#projetNum').hide();
+    $('#contacts').hide();
+  });
+
+  $('#comp').click(function(){
+    $('#competences').show();
+    $('#presentation').hide();
+    $('#experiences').hide();
+    $('#competences').hide();
+    $('#projetNum').hide();
+    $('#contacts').hide();
+  });
+
+  $('#proj').click(function(){
+    $('#projetNum').show();
+    $('#presentation').hide();
+    $('#experiences').hide();
+    $('#competences').hide();
+    $('#competences').hide();
+    $('#contacts').hide();
+  });
+
+  $('#cont').click(function(){
+    $('#contacts').show();
+    $('#presentation').hide();
+    $('#experiences').hide();
+    $('#competences').hide();
+    $('#projetNum').hide();
+    $('#formations').hide();
+  });
+});
+
+
+
 // Wrap every letter in a span
 $('.ml11 .letters').each(function(){
   $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
