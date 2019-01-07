@@ -59,6 +59,9 @@ $(function(){
     $('#projetNum').hide();
     $('#formations').hide();
   });
+  $('.nav-collapse').click('li', function() {
+    $('.nav-collapse').collapse('hide');
+});
 });
 
 
@@ -97,4 +100,22 @@ anime.timeline({loop: true})
     duration: 1000,
     easing: "easeOutExpo",
     delay: 1000
+  });
+
+  $(document).ready(function() {
+
+    $("#owl-demo").owlCarousel({
+
+      nav: true, // Show next and prev buttons
+      navText: ["<span class='icon icon-arrow-left7'></span>","<span class='icon icon-arrow-right7'></span>"],
+      slideSpeed : 300,
+      paginationSpeed : 400,
+
+      items : 1,
+      itemsDesktop : false,
+      itemsDesktopSmall : false,
+      itemsTablet: false,
+      itemsMobile : false,
+      loop: true
+    });
   });
