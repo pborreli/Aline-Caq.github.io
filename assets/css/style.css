@@ -204,7 +204,11 @@ h2{
 	  text-align: center;
 	  font-family: 'Oswald', sans-serif;
 	}
-	/* .progressBar{
-		display: block;
-	} */
+	.titrecompnum{
+	  text-decoration: underline;
+	  font-size: 130%;
+	}
+	h2{
+	  font-size: 80%;
+	}
 }
