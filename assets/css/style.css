@@ -162,6 +162,7 @@ h2{
 	}
   #nameDeux{
     color: #2F2F3A;
+		font-size: 180%;
   }
 	.nav-link {
 	  font-size: 100%;
@@ -172,34 +173,34 @@ h2{
 	#presentation{
 		margin-left: 0%;
 		text-align: center;
-		margin-top:8%;
-		font-size: 120%;
+		margin-top:1%;
+		font-size: 100%;
 	}
 	#experiences{
 		margin-left: 0%;
 		text-align: center;
-		margin-top: 8%;
+		margin-top: 0%;
 		font-size: 100%;
 	}
 	#formations{
 		margin-left: 0%;
-		padding-top: 8%;
+		padding-top: 2%;
 		font-size: 100%;
 	}
 	#competences{
 		margin-left: 30%;
 		padding-right: 20%;
-		padding-top: 10%;
+		padding-top: 1%;
 		font-size: 70%;
 	}
 	#projetNum{
 		margin-left: 0%;
 		font-size: 90%;
-		margin-top: 10%;
+		margin-top: 5%;
 	}
 	#contacts{
 	  margin-left: 0%;
-	  padding-top:20%;
+	  padding-top:8%;
 	  font-size: 90%;
 	  text-align: center;
 	  font-family: 'Oswald', sans-serif;
