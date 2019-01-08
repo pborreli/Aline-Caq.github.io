@@ -1,4 +1,4 @@
-html { overflow-y: hidden; }
+
 #photoDeMoi{
 	max-width: 20%;
 	height: auto;
@@ -131,7 +131,7 @@ h2{
   color: black;
 }
 #competences{
-  padding-top: 3%;
+  padding-top: 1%;
   margin-left: 20%;
   text-align: center;
   font-family: 'Oswald', sans-serif;
