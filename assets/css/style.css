@@ -156,6 +156,73 @@ h2{
 #telephone{
   margin-bottom: 3%;
 }
+@media screen and (min-width: 990px) and (max-width: 1400px){
+	#liseret{
+	  display: none;
+	}
+  #nameDeux{
+    color: #2F2F3A;
+  }
+	.nav-link {
+	  font-size: 100%;
+	}
+  #myName{
+    display: none;
+  }
+	#presentation{
+		margin-left: 0%;
+		text-align: center;
+		margin-top:8%;
+		font-size: 120%;
+	}
+	#experiences{
+		margin-left: 0%;
+		text-align: center;
+		margin-top: 8%;
+		font-size: 100%;
+	}
+	#formations{
+		margin-left: 0%;
+		padding-top: 8%;
+		font-size: 100%;
+	}
+	#competences{
+		margin-left: 30%;
+		padding-right: 20%;
+		padding-top: 10%;
+		font-size: 70%;
+	}
+	#projetNum{
+		margin-left: 0%;
+		font-size: 90%;
+		margin-top: 10%;
+	}
+	#contacts{
+	  margin-left: 0%;
+	  padding-top:20%;
+	  font-size: 90%;
+	  text-align: center;
+	  font-family: 'Oswald', sans-serif;
+	}
+	.titrecompnum{
+	  text-decoration: underline;
+	  font-size: 130%;
+	}
+	h2{
+	  font-size: 85%;
+	}
+	.circular-chart {
+	  display: block;
+	  margin: 30px auto;
+	  max-width: 2300%;
+	  max-height: 350px;
+	}
+	.percentage {
+		font-family: "Lucida Console", Courier, monospace;
+	  font-size: 110%;
+
+	}
+}
 @media screen and (max-width: 990px){
 	#liseret{
 	  display: none;
