@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+
   <title>Aline CAQUINEAU</title>
 </head>
 <body>
@@ -26,33 +31,35 @@
     <picture>
       <img src="assets/img/moiPhoto.png" alt="photoDeMoi" id='photoDeMoi'>
     </picture>
-    <nav id="navbar-scroll" class="navbar navbar-expand-md navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" id="pres"><strong>À propos</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="expe"><strong>Expériences</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="form"><strong>Formations</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="comp"><strong>Compétences</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="proj"><strong>Projets Numériques</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="cont"><strong>Contact</strong></a>
-          </li>
-        </ul>
-      </div>
+ <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon"></span>
+ </button>
+ <div class="navbar-collapse justify-content-center collapse" id="navbarResponsive" style="">
+   <ul class="navbar-nav">
+     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+      <a class="nav-link" id="pres"><strong>À propos</strong></a>
+     </li>
+     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+       <a class="nav-link" id="expe"><strong>Expériences</strong></a>
+     </li>
+     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+       <a class="nav-link" id="form"><strong>Formations</strong></a>
+     </li>
+     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+       <a class="nav-link" id="comp"><strong>Compétences</strong></a>
+     </li>
+     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+       <a class="nav-link" id="proj"><strong>Projets Numériques</strong></a>
+     </li>
+     <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+       <a class="nav-link" id="cont"><strong>Contact</strong></a>
+     </li>
+   </ul>
+ </div>
+
+
       <!-- FIN NAVBAR-->
     </nav>
     <!-- DEBUT DE MA ROW PRESENTATION LIEE A NAVBAR-->
@@ -72,14 +79,14 @@
     <!-- DEBUT DE MA ROW EXPERIENCES LIEE A NAVBAR -->
     <div class="row" id="experiences">
       <div class="col-12">
-        <p><strong>Téléconseillère </strong>: <i>Caisse Primaire Assurance Maladie 03/18-09/18</i></p>
-        <p><strong>Gestionnaire Santé </strong>: <i>EOVI MCD Mutuelle 07/17-01/18</i></p>
-        <p><strong>Adjointe de Direction </strong>:<i> Mairie (54) 07/14-07/16</i></p>
-        <p><strong>Animatrice Enfance</strong>:<i> Mairie (54)11/13-07/14</i></p>
-        <p><strong>Gestionnaire Santé </strong>:<i> Solimut09/11-08/13</i></p>
-        <p><strong>Vendeuse en Boulangerie</strong>:<i> De Marie 07/11-09/11</i></p>
-        <p><strong>Téléconseillère</strong>:<i> Giordano 07/10-06/11</i></p>
-        <p><strong>Vendeuse, Hôtesse de Caisse</strong>:<i> Décathlon 01/08-06/10</i></p>
+        <p><strong>Téléconseillère </strong>: <i>Caisse Primaire Assurance Maladie</i> - 03/18-09/18</p>
+        <p><strong>Gestionnaire Santé </strong>: <i>EOVI MCD Mutuelle</i> - 07/17-01/18</p>
+        <p><strong>Adjointe de Direction </strong>:<i> Mairie (54)</i> - 07/14-07/16</p>
+        <p><strong>Animatrice Enfance</strong>:<i> Mairie (54)</i> - 11/13-07/14</p>
+        <p><strong>Gestionnaire Santé </strong>:<i> Solimut</i> - 09/11-08/13</p>
+        <p><strong>Vendeuse en Boulangerie</strong>:<i> De Marie</i> - 07/11-09/11</p>
+        <p><strong>Téléconseillère</strong>:<i> Giordano</i> - 07/10-06/11</p>
+        <p><strong>Vendeuse, Hôtesse de Caisse</strong>:<i>Décathlon</i> - 01/08-06/10</p>
       </div>
       <!-- FIN DE MA ROW EXPERIENCES LIEE A NAVBAR -->
     </div>
@@ -87,212 +94,365 @@
     <div class="row"  id="formations">
       <div class="col-12">
         <ul>
-          <li>LA MANU - Ecole du Numérique d'Amiens 2018</li>
-          <p><i>Formation intensive "Developpeur Web et Web Mobile" RNCP 5927</i></p>
-          <li>ID LANGUES Avignon 2017</li>
+          <li><strong>LA MANU - Ecole du Numérique d'Amiens 2018</strong></li>
+          <p><i>Formation intensive "Developpeur Web et Web Mobile" RNCP 31114</i></p>
+          <li><strong>ID LANGUES Avignon 2017</strong></li>
           <p><i>TOEIC Anglais e-learning = 590</i></p>
-          <li>UFCV NANCY 2015</li>
+          <li><strong>UFCV NANCY 2015</strong></li>
           <p><i>BAFD en cours / BAFA</i></p>
-          <li>Lycée Louis Lapicque EPINAL 2008</li>
+          <li><strong>Lycée Louis Lapicque EPINAL 2008</strong></li>
           <p><i>Baccalaureat Economique Social</i></p>
         </ul>
       </div>
       <!-- FIN DE MA ROW FORMATIONS LIEE A NAVBAR -->
     </div>
+    <div class="progressBar">
+    <div class="row">
+      <div class="col-12">
+        <!-- PROGRESS BAR LANGAGES -->
+        <p>Langages</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">HTML 70%</div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">CSS 70 %</div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">XML 40%</div>
+        </div>
+      </div>
+      <div class="col-2"></div>
+      <!-- FIN PROGRESS BAR LANGAGES -->
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">PHP 70%</div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">SQL 70 %</div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">JAVASCRIPT 40%</div>
+        </div>
+      </div>
+      <div class="col-2"></div>
+      <!-- FIN PROGRESS BAR LANGAGES -->
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <!-- PROGRESS BAR SYST EXPLO -->
+        <p>Systèmes Exploitation</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">LINUX 40%</div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">WINDOWS 65%</div>
+        </div>
+      </div>
+      <div class="col-5"></div>
+      <!-- FIN PROGRESS BAR SYST EXPLO -->
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <!-- PROGRESS BAR FRAMWORKS-->
+        <p>Frameworks & Bibliotheques</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">BOOTSTRAP 50%</div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">ANGULAR JS 30%</div>
+        </div>
+      </div>
+      <div class="col-5"></div>
+      <!-- FIN PROGRESS BAR FRAMWORKS-->
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <!-- PROGRESS BAR OUTILS-->
+        <p>Outils</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">TERMINAL 60%</div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 30%">GIT 30%</div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">GITHUB 70%</div>
+        </div>
+      </div>
+      <div class="col-2"></div>
+      <!-- FIN PROGRESS BAR OUTILS-->
+    </div>
+    <div class="row" id="white">
+      <div class="col-12"></div>
+      <!-- PROGRESS BAR OUTILS 2-->
+    </div>
+    <p>IDE</p>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">NANO 60%</div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">ATOM 50%</div>
+        </div>
+      </div>
+      <div class="col-5"></div>
+      <!-- FIN PROGRESS BAR OUTILS 2-->
+    </div>
+    <!-- FIN ROW COMPETENCES-->
+    </div>
+
+
     <!-- DEBUT DE MA ROW COMPETENCES LIEE A NAVBAR -->
     <div id="competences">
-      <div class="tab-pane" id="compnum" role="tabpanel" aria-labelledby="compnum-tab">
-                   <div id="owl-demo" class="owl-carousel owl-theme">
-                    <!-- first tab -->
-                    <div class="item">
-                      <p class="titrecompnum">Langages</p>
-                      <div class="single-chart">
-                        <p>Html/CSS</p>
-                        <svg viewBox="0 0 36 36" class="circular-chart">
-                          <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <path class="circle" stroke-dasharray="90, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <text x="18" y="20.35" class="percentage">90%</text>
-                        </svg>
-                      </div>
-                      <div class="single-chart">
-                        <p>XML</p>
-                        <svg viewBox="0 0 36 36" class="circular-chart">
-                          <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <path class="circle" stroke-dasharray="70, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <text x="18" y="20.35" class="percentage">70%</text>
-                        </svg>
-                      </div>
-                      <div class="single-chart">
-                        <p>Javascript</p>
-                        <svg viewBox="0 0 36 36" class="circular-chart">
-                          <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <path class="circle" stroke-dasharray="70, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <text x="18" y="20.35" class="percentage">70%</text>
-                        </svg>
-                      </div>
-                      <div class="single-chart">
-                        <p>PHP</p>
-                        <svg viewBox="0 0 36 36" class="circular-chart">
-                          <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <path class="circle" stroke-dasharray="70, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <text x="18" y="20.35" class="percentage">70%</text>
-                        </svg>
-                      </div>
-                      <div class="single-chart">
-                        <p>SQL</p>
-                        <svg viewBox="0 0 36 36" class="circular-chart">
-                          <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <path class="circle" stroke-dasharray="70, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <text x="18" y="20.35" class="percentage">70%</text>
-                        </svg>
-                      </div>
-                    </div>
-                    <!-- tab 2 -->
-                    <div class="item">
-                      <h5 class="titrecompnum">Outils</h5>
-                      <div class="single-chart">
-                        <p>Lignes de Commandes</p>
-                        <svg viewBox="0 0 36 36" class="circular-chart">
-                          <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <text x="18" y="20.35" class="percentage">80%</text>
-                        </svg>
-                      </div>
-                      <div class="single-chart">
-                        <p>GIT</p>
-                        <svg viewBox="0 0 36 36" class="circular-chart">
-                          <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <path class="circle" stroke-dasharray="50, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <text x="18" y="20.35" class="percentage">50%</text>
-                        </svg>
-                      </div>
-                      <div class="single-chart">
-                        <p>GITHUB</p>
-                        <svg viewBox="0 0 36 36" class="circular-chart">
-                          <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <path class="circle" stroke-dasharray="50, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <text x="18" y="20.35" class="percentage">50%</text>
-                        </svg>
-                      </div>
-                    </div>
-                    <!-- tab 3 -->
-                    <div class="item">
-                      <h5 class="titrecompnum">Editeur de Texte</h5>
-                      <div class="single-chart">
-                        <p>Netbeans</p>
-                        <svg viewBox="0 0 36 36" class="circular-chart">
-                          <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <path class="circle" stroke-dasharray="70, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <text x="18" y="20.35" class="percentage">70%</text>
-                        </svg>
-                      </div>
-                    </div>
-                    <!-- tab4 -->
-                    <div class="item">
-                      <h5 class="titrecompnum">IDE</h5>
-                      <span class="single-chart">
-                        <p>Nano</p>
-                        <svg viewBox="0 0 36 36" class="circular-chart">
-                          <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <text x="18" y="20.35" class="percentage">80%</text>
-                        </svg>
-                      </span>
-                      <span class="single-chart">
-                        <p>Atom</p>
-                        <svg viewBox="0 0 36 36" class="circular-chart">
-                          <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                          <text x="18" y="20.35" class="percentage">80%</text>
-                        </svg>
-                      </span>
-                      <!-- tab 5 -->
-                      <div class="item">
-                        <h5 class="titrecompnum">Bibliothèque</h5>
-                        <div class="single-chart">
-                          <p>Jquery</p>
-                          <svg viewBox="0 0 36 36" class="circular-chart">
-                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                            <path class="circle" stroke-dasharray="70, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                            <text x="18" y="20.35" class="percentage">70%</text>
-                          </svg>
-                        </div>
-                      </div>
-                      <!-- tab 6 -->
-                      <div class="item">
-                        <h5 class="titrecompnum">Systèmes D'Exploitations</h5>
-                        <div class="single-chart">
-                          <p>Linux</p>
-                          <svg viewBox="0 0 36 36" class="circular-chart">
-                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                            <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                            <text x="18" y="20.35" class="percentage">80%</text>
-                          </svg>
-                        </div>
-                        <div class="single-chart">
-                          <p>Windows</p>
-                          <svg viewBox="0 0 36 36" class="circular-chart">
-                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                            <path class="circle" stroke-dasharray="50, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                            <text x="18" y="20.35" class="percentage">50%</text>
-                          </svg>
-                        </div>
-                      </div>
-                      <!-- tab 7 -->
-                      <div class="item">
-                        <h5 class="titrecompnum">Frameworks</h5>
-                        <div class="single-chart">
-                          <p>Bootstrap</p>
-                          <svg viewBox="0 0 36 36" class="circular-chart">
-                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                            <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                            <text x="18" y="20.35" class="percentage">80%</text>
-                          </svg>
-                        </div>
-                        <div class="single-chart">
-                          <p>AngularsJS</p>
-                          <svg viewBox="0 0 36 36" class="circular-chart">
-                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                            <path class="circle" stroke-dasharray="50, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                            <text x="18" y="20.35" class="percentage">50%</text>
-                          </svg>
-                        </div>
-                      </div>
-                      <!-- tab 8 -->
-                      <div class="item">
-                        <h5 class="titrecompnum">CMS</h5>
-                        <div class="single-chart">
-                          <p>WordPress</p>
-                          <svg viewBox="0 0 36 36" class="circular-chart">
-                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                            <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                            <text x="18" y="20.35" class="percentage">80%</text>
-                          </svg>
-                        </div>
-                      </div>
-                      <!-- tab 7 -->
-                      <div class="item">
-                        <h5 class="titrecompnum">Autres</h5>
-                        <div class="single-chart">
-                          <p>Canvas</p>
-                          <svg viewBox="0 0 36 36" class="circular-chart">
-                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                            <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
-                            <text x="18" y="20.35" class="percentage">80%</text>
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-                    </div>
-                  </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="item">
+              <h1 class="titrecompnum">Langages</h1>
+              <div class="single-chart">
+                <h2>Html/CSS</h2>
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <path class="circle" stroke-dasharray="90, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <text x="18" y="20.35" class="percentage">90%</text>
+                </svg>
+              </div>
+              <div class="single-chart">
+                <h2>XML</h2>
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <text x="18" y="20.35" class="percentage">60%</text>
+                </svg>
+              </div>
+              <div class="single-chart">
+                <h2>Javascript</h2>
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <text x="18" y="20.35" class="percentage">60%</text>
+                </svg>
+              </div>
+              <div class="single-chart">
+                <h2>PHP</h2>
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <text x="18" y="20.35" class="percentage">60%</text>
+                </svg>
+              </div>
+              <div class="single-chart">
+                <h2>SQL</h2>
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <path class="circle" stroke-dasharray="70, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <text x="18" y="20.35" class="percentage">70%</text>
+                </svg>
+              </div>
+              <div class="item">
+                <h1 class="titrecompnum">Outils</h1>
+                <div class="single-chart">
+                  <h2>Lignes de Commandes</h2>
+                  <svg viewBox="0 0 36 36" class="circular-chart">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" stroke-dasharray="70, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <text x="18" y="20.35" class="percentage">70%</text>
+                  </svg>
+                </div>
+                <div class="single-chart">
+                  <h2>GIT</h2>
+                  <svg viewBox="0 0 36 36" class="circular-chart">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <text x="18" y="20.35" class="percentage">60%</text>
+                  </svg>
+                </div>
+                <div class="single-chart">
+                  <h2>GITHUB</h2>
+                  <svg viewBox="0 0 36 36" class="circular-chart">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" stroke-dasharray="70, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <text x="18" y="20.35" class="percentage">70%</text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+              <div class="item">
+                <h1 class="titrecompnum">Editeur de Texte</h1>
+                <div class="single-chart">
+                  <h2>Netbeans</h2>
+                  <svg viewBox="0 0 36 36" class="circular-chart">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <text x="18" y="20.35" class="percentage">60%</text>
+                  </svg>
+                </div>
+              </div>
+              <div class="item">
+                <h1 class="titrecompnum">IDE</h1>
+                <span class="single-chart">
+                  <h2>Nano</h2>
+                  <svg viewBox="0 0 36 36" class="circular-chart">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" stroke-dasharray="70, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <text x="18" y="20.35" class="percentage">70%</text>
+                  </svg>
+                </span>
+                <span class="single-chart">
+                  <h2>Atom</h2>
+                  <svg viewBox="0 0 36 36" class="circular-chart">
+                    <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <text x="18" y="20.35" class="percentage">80%</text>
+                  </svg>
+                </span>
+            </div>
+            </div>
+          <div class="carousel-item">
+            <div class="item">
+              <h1 class="titrecompnum">Bibliothèque</h1>
+              <div class="single-chart">
+                <h2>Jquery</h2>
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <text x="18" y="20.35" class="percentage">60%</text>
+                </svg>
+              </div>
+            </div>
+            <div class="item">
+              <h1 class="titrecompnum">Systèmes d'Exploitations</h1>
+              <div class="single-chart">
+                <h2>Linux</h2>
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <path class="circle" stroke-dasharray="60, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <text x="18" y="20.35" class="percentage">60%</text>
+                </svg>
+              </div>
+              <div class="single-chart">
+                <h2>Windows</h2>
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <text x="18" y="20.35" class="percentage">80%</text>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="item">
+              <h1 class="titrecompnum">Frameworks</h1>
+              <div class="single-chart">
+                <h2>Bootstrap</h2>
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <text x="18" y="20.35" class="percentage">80%</text>
+                </svg>
+              </div>
+              <div class="single-chart">
+                <h2>AngularsJS</h2>
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <path class="circle" stroke-dasharray="65, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <text x="18" y="20.35" class="percentage">65%</text>
+                </svg>
+              </div>
+            </div>
+            <div class="item">
+              <h1 class="titrecompnum">CMS</h1>
+              <div class="single-chart">
+                <h2>WordPress</h2>
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <path class="circle" stroke-dasharray="55, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <text x="18" y="20.35" class="percentage">55%</text>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="item">
+              <h1 class="titrecompnum">Autres</h1>
+              <div class="single-chart">
+                <h2>Canvas</h2>
+                <svg viewBox="0 0 36 36" class="circular-chart">
+                  <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <path class="circle" stroke-dasharray="80, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                  <text x="18" y="20.35" class="percentage">80%</text>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
     </div>
+  </div>
     <!-- DEBUT DE MA ROW PROJET NUM LIEE A NAVBAR -->
     <div class="row"  id="projetNum">
       <div class="col-12">
         <ul>
-          <li><strong>Projet #1 </strong>: Création de mon premier CV Numérique</li><a href="Aline_Caq/index.html" target="_blank"><img src="assets/img/click.png" alt="link"></a>
-          <li><strong>Projet #2 </strong>: Reproduction du site internet de "Business et Decision"</li>
-          <li><strong>Projet #3 </strong>:Création d'un site ECommerce en qualité de Cheffe d'équipe</li>
+          <li><strong>Projet #1 </strong>: Création de mon premier CV Numérique</li>
+          <li><strong>Projet #2 </strong>: Reproduction d'un site internet : Bootstrap</li>
+          <li><strong>Projet #3 </strong>: Création d'un site E-Commerce en qualité de Cheffe d'équipe : JavaScript</li>
+          <li><strong>Projet #4 </strong>: Création d'un site E-Commerce : AngularsJs</li>
+          <li><strong>Projet #5 </strong>: Reproduction d'un site internet : PHP</li>
+          <li><strong>Projet #6 </strong>: Participation Startup Week-end Valenciennes</li>
+          <li><strong>Projet #7 </strong>: Participation au Forum "Les Numériqu'elles"</li>
         </ul>
       </div>
       <!-- FIN DE MA ROW PROJET NUM LIEE A NAVBAR -->
@@ -300,8 +460,8 @@
     <!-- DEBUT DE MA DIV CONTACTS LIEE NAVBAR -->
     <div class="row"  id="contacts">
       <div class="col-12">
-        <p id="adress">CAQUINEAU Aline, AMIENS 80000</p>
-        <p>06.62.10.67.08</p>
+        <p id="adresse">CAQUINEAU Aline, AMIENS 80000</p>
+        <p id="telephone">06.62.10.67.08</p>
         <div class="row">
           <div class="col-1"></div>
           <div class="col-2">
@@ -313,7 +473,7 @@
                 <div class="col-2">
                   <p>Twiter <a href="https://twitter.com/Aline_Caq/" title="Suivez-moi sur Twiter !"><img src="assets/img/tw.png" alt="tw"></a></p></div>
                   <div class="col-2">
-                    <p>Mail <a href="mailto:caquineaualine@live.fr"></a><img src="assets/img/mail.png" alt="mail"></p></div>
+                    <p>Mail <a href="mailto:caquineaualine@live.fr"><img src="assets/img/mail.png" alt="mail"></a></p></div>
                     <div class="col-1"></div>
                   </div>
                 </div>

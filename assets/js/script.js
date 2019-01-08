@@ -108,8 +108,7 @@ anime.timeline({loop: true})
 
       nav: true, // Show next and prev buttons
       navText: ["<span class='icon icon-arrow-left7'></span>","<span class='icon icon-arrow-right7'></span>"],
-      slideSpeed : 300,
-      paginationSpeed : 400,
+      paginationSpeed : 800,
 
       items : 1,
       itemsDesktop : false,

@@ -1,21 +1,25 @@
-
-/* Debut CSS de la Structure */
+html { overflow-y: hidden; }
 #photoDeMoi{
 	max-width: 20%;
 	height: auto;
-  position: absolute;
-  z-index: 2;
+  position: fixed;
+  z-index: 4;
   border-radius: 50%;
   margin-left: 2.5%;
   margin-top: 2%;
 }
 .navbar {
   background: #78A1BB;
-  z-index: 0;
+  z-index: 2;
   margin-top: 2%
 }
-#navbarNav{
+#navbarResponsive{
   margin-top: 10%;
+	margin-left: 41%;
+}
+.navbar-nav .nav-link {
+  float: right;
+  font-size: 120%;
 }
 #liseret{
   height: 500px;
@@ -23,13 +27,13 @@
   background: #2F2F3A;
   margin-left: 2%;
   margin-top: 0.5%;
-  z-index: 1;
-}
-.navbar-nav .nav-link {
-  float: right;
+  z-index: 3;
 }
 #nameDeux{
   color: white;
+}
+.progressBar{
+  display: none;
 }
 #myName{
   margin-top: 6%;
@@ -37,28 +41,37 @@
   margin-left: 32%;
   font-weight: bold;
   position: fixed;
-  z-index: 2;
+  z-index: 5;
 }
 #presentation{
   margin-left: 22%;
-  padding-top: 20%;
-  text-align: center;
-  font-family: "Manjari Bold";
-  font-size: 125%;
+  padding-top: 3%;
+	text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 130%;
 }
 #experiences{
   margin-left: 10%;
-  padding-top: 19%;
+  padding-top: 3%;
   text-align: center;
-  font-family: "Manjari Bold";
+  font-family: 'Oswald', sans-serif;
   font-size: 120%;
 }
 #formations{
-  padding-top: 20%;
+  padding-top: 3%;
   margin-left: 10%;
   text-align: center;
-  font-family: "Manjari Bold";
+  font-family: 'Oswald', sans-serif;
   font-size: 120%;
+}
+.carousel-control-next-icon{
+  background-color: black;
+}
+.carousel-control-prev-icon{
+  background-color: black;
+}
+h2{
+  font-size: 150%;
 }
 .single-chart {
   width: 10%;
@@ -103,7 +116,7 @@
 /* Titre des camemberts */
 .titrecompnum{
   text-decoration: underline;
-  font-size: 250%;
+  font-size: 230%;
 }
 /* Slide manuel portable */
 #owl-demo .item img{
@@ -114,84 +127,84 @@
 /* le camembert complet */
 .single-chart{
   display: inline-block;
-  margin-top: 3%;
+  margin-top: 1%;
   text-align: center;
+}
+.carlist{
+  color: black;
 }
 #competences{
-  padding-top: 20%;
+  padding-top: 3%;
   margin-left: 20%;
   text-align: center;
-  font-family: "Manjari Bold";
-  font-size: 60%;
-}
-.progress{
-  font-weight: bold;
-  background-color: grey;
-}
-#white{
-  height: 10px;
-  width: auto;
+  font-family: 'Oswald', sans-serif;
+  font-size: 70%;
 }
 #projetNum{
-  margin-left: 20%;
-  padding-top:26%;
-  text-align: center;
-  font-family: "Manjari Bold";
+	margin-left: 40%;
+  padding-top:6%;
+  font-size: 130%;
+  font-family: 'Oswald', sans-serif;
 }
 #contacts{
-  padding-top:25%;
-  margin-left: 20%;
+  margin-left: 25%;
+  padding-top:6%;
+  font-size: 150%;
   text-align: center;
-  font-family: "Manjari Bold";
+  font-family: 'Oswald', sans-serif;
+}
+#adresse{
+  margin-bottom: 3%;
+}
+#telephone{
+  margin-bottom: 3%;
 }
 @media screen and (max-width: 800px){
-  #liseret{
-    display: none;
-  }
-
+	#liseret{
+	  display: none;
+	}
   #nameDeux{
     color: #2F2F3A;
   }
   #myName{
     display: none;
   }
-  #presentation{
-    margin-right: 10%;
-    padding-top: 25%;
-    font-family: "Manjari Bold";
-  }
-  #experiences{
-    padding-top: 25%;
-    font-size: 90%;
-    text-align: center;
-    font-family: "Manjari Bold";
-  }
-  #formations{
-    padding-top: 27%;
-    text-align: center;
-    font-family: "Manjari Bold";
-  }
-  #competences{
-    padding-top: 26%;
-    text-align: center;
-    font-family: "Manjari Bold";
-  }
-  .progress{
-    font-weight: bold;
-    background-color: grey;
-  }
-  #white{
-    height: 10px;
-    width: auto;
-  }
-  #projetNum{
-    padding-top:30%;
-    text-align: center;
-    font-family: "Manjari Bold";
-  }
-  #contacts{
-    padding-top:32%;
-    text-align: center;
-    font-family: "Manjari Bold";
-  }
+	#presentation{
+		margin-left: 0%;
+		text-align: center;
+		margin-top:10%;
+		font-size: 120%;
+	}
+	#experiences{
+		margin-left: 0%;
+		text-align: center;
+		margin-top: 15%;
+		font-size: 100%;
+	}
+	#formations{
+		margin-left: 0%;
+		margin-top: 15%;
+		font-size: 100%;
+	}
+	#competences{
+		margin-left: 0%;
+		margin-right: 10%;
+		margin-top: 10%;
+		font-size: 70%;
+	}
+	#projetNum{
+		margin-left: 0%;
+		font-size: 90%;
+		margin-top: 10%;
+	}
+	#contacts{
+	  margin-left: 0%;
+	  padding-top:20%;
+	  font-size: 90%;
+	  text-align: center;
+	  font-family: 'Oswald', sans-serif;
+	}
+	/* .progressBar{
+		display: block;
+	} */
 }
